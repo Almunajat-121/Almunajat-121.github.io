@@ -1,29 +1,78 @@
+/* Gaya Umum */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Warna gelap */
+    color: #e0e0e0; /* Teks terang */
+}
+
+/* Header */
+header {
     text-align: center;
     padding: 20px;
+    background: rgba(20, 20, 20, 0.8); /* Transparan */
+    color: white;
+    backdrop-filter: blur(10px);
 }
-.container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-img {
-    width: 150px;
-    height: 150px;
+
+header img {
     border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
 }
+
+/* Social Icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00aaff;
+    transform: scale(1.2);
+}
+
+/* Link */
 a {
     text-decoration: none;
-    color: #007bff;
+    color: #00aaff;
+    font-weight: bold;
+    transition: 0.3s;
 }
+
 a:hover {
-    text-decoration: underline;
+    color: #0088cc;
+}
+
+/* Bagian Konten */
+section {
+    background: rgba(30, 30, 30, 0.8); /* Transparan */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+/* Judul */
+h2 {
+    color: #00aaff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(20, 20, 20, 0.9);
+    color: white;
+    backdrop-filter: blur(5px);
 }
